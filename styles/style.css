@@ -49,6 +49,29 @@ p {
     background: #f7c08a;
     color: #333;
 }
+.btn_readmore {
+    background:#fff ;
+    color: #333;
+
+}
+.bg_dark{
+    background: #333;
+    color: #fff;
+}
+.bg_readmore {
+    background: #f7c08a;
+    color: #333;
+}
+.clr {
+    clear: both;
+}
+.l-heading {
+    font-size: 40px;
+}
+/* padding */
+.py-1{padding: 10px;}
+.py-2{padding: 20px;}
+.py-3{padding: 30px;}
 /* Navbar*/
 #nav_bar{
     background: #333;
@@ -102,4 +125,116 @@ p {
     line-height: 1.7em;
 
     
+}
+/* home_ */
+#home_info {
+   height: 400px; 
+}
+#home_info .info_img {
+    float: left;
+    width: 50%;
+    background: url('../img/photo-1.jpg') no-repeat;
+    min-height: 100%;
+    
+}
+#home_info .info_content {
+    float: right;
+    width: 50%;
+    height: 100px;
+    text-align: center;
+    padding: 50px 30px;
+    /* overflow: hidden; */
+}
+#home_info .info_content p {
+    padding-bottom: 30px;
+}
+/* features */
+.box {
+    float: left;
+    width: 33.33%;
+    padding: 50px;
+    text-align: center;
+}
+.box i {
+    margin-bottom: 10px;
+}
+/* about */
+#about_info .info-right {
+    float: right;
+    width: 50%;
+    min-height: 100%;
+  }
+  
+  #about_info .info-right img {
+    display: block;
+    margin: auto;
+    width: 70%;
+    border-radius: 50%;
+  }
+  
+  #about_info .info-left {
+    float: left;
+    width: 50%;
+    min-height: 100%;
+  }
+  /* feedback */
+  #feedback {
+      height: 700px;
+      background: url('../img/test-bg.jpg')no-repeat
+      center center/cover;
+      padding-top: 100px;
+
+  }
+  #feedback h2 {
+    color: #fff;
+    text-align: center;
+    padding: 20px 40px;
+}
+  #feedback .feedback_1 {
+      padding: 20px;
+      margin-bottom: 40px;
+      border-radius: 15px;
+      opacity: 0.7;
+      /* margin-right: 20px; */
+      
+  }
+  #feedback .feedback_1 img {
+      width: 100px;
+      float: left;
+      margin-right: 20px;
+      border-radius: 50%;
+
+  }
+  /* contact form */
+  #contact-form .contact-group {
+     margin-bottom: 20px;
+  }
+  #contact-form label {
+      display: block;
+      margin-bottom: 5px;
+  }
+
+  #contact-form input,
+  #contact-form textarea {
+      width: 100%;
+      padding: 10px;
+      border: 1px #ddd solid;
+
+  }
+  #contact-form textarea {
+      height: 200px;
+  }
+  #contact-form input:focus,
+  #contact-form textarea:focus {
+      outline: none;
+      border-color: #f7c08a;
+  }
+
+
+/* footer */
+#main_footer{
+    text-align: center;
+    background: #333;
+    color: #fff;
+    padding: 20px;
 }
